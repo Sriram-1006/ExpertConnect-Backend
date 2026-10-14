@@ -72,7 +72,7 @@ public class SecurityConfig {
         CorsConfiguration configuration = new CorsConfiguration();
         // React dev servers. Credentials are allowed, so origins must be explicit
         // (never "*" together with allowCredentials).
-        configuration.setAllowedOrigins(List.of("http://localhost:3000", "http://localhost:5173", "https://ttexpertconnect.netlify.app"));
+        configuration.setAllowedOrigins(List.of("http://localhost:3000", "http://localhost:5173", "https://24eg107d54.netlify.app"));
         configuration.setAllowedMethods(List.of("GET", "POST", "PUT", "DELETE", "PATCH", "OPTIONS"));
         configuration.setAllowedHeaders(List.of("Authorization", "Content-Type", "Accept"));
         configuration.setAllowCredentials(true);
